@@ -1,11 +1,4 @@
-/*------------------------------------------------------------------
-Project:  
-Version:  
-Last change:  
-Assigned to:  Le Xuan Bach
-Primary use:  Company
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
+
 [LAYOUT]
 
 * body
@@ -115,8 +108,15 @@ Input, textarea : 14px/1.6 '', Arial, sans-serif;
 .slick-slide {outline: none !important;}
 
 
-
-
+.intro{
+  margin-top:35px;
+  margin-bottom: -100px;
+  background-color: black;
+}
+.justify{
+  text-align: justify;
+  text-indent: 50px;
+}
 
 /*//////////////////////////////////////////////////////////////////
 [ LOADDING ]*/
@@ -2132,7 +2132,6 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 
-
 /*==================================================================
     TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 ==================================================================*/
@@ -2233,6 +2232,12 @@ input.num-product::-webkit-inner-spin-button {
 .stext-113 {
   font-family: Poppins-Light;
   font-size: 14px;
+  line-height: 1.7857;
+}
+
+.stext-120 {
+  font-family: Poppins-Light;
+  font-size: 20px;
   line-height: 1.7857;
 }
 
